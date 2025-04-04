@@ -4,7 +4,7 @@ import { Details ,Links } from "../constants/contents";
 import { BottomNavigation, BottomNavigationAction } from "@mui/material";
 import { Home, User, Briefcase, Mail, Code } from "lucide-react"; 
 import { motion } from "framer-motion"; 
-
+// hello
 export default function Navbar() {
   const [value, setValue] = useState(0); 
   const [showNavbar, setShowNavbar] = useState(true);
